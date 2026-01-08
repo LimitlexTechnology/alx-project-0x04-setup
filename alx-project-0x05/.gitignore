@@ -1,0 +1,48 @@
+# Node / Next build
+node_modules/
+.next/
+out/
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env files
+.env
+.env.*
+
+# Editor folders
+.vscode/
+.idea/
+
+# Test coverage
+coverage/
+
+# Bundler caches
+.parcel-cache/
+.turbo/
+.cache/
+
+# pnpm store
+.pnpm-store/
+
+# Temporary/archives
+*.tgz
+*.zip
+*.tar.gz
+
+# Binary artifacts
+*.exe
+*.dll
+*.pdb
+
+# Next.js telemetry
+.vercel/
