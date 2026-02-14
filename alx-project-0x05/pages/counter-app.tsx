@@ -1,8 +1,7 @@
-import React from 'react'
-import { useCount } from '@/context/CountContext'
+import { useCount } from "@/context/CountContext";
 
 const CounterApp: React.FC = () => {
-  const { count, increment, decrement } = useCount()
+  const { count, increment, decrement } = useCount();
 
   return (
     <div className="min-h-screen bg-gradient-to-r from-yellow-400 to-pink-500 flex flex-col justify-center items-center text-white">
@@ -40,7 +39,7 @@ const CounterApp: React.FC = () => {
         Keep clicking, who knows what happens at 100? 😏
       </p>
     </div>
-  )
+  );
 }
 
-export default CounterApp
+export default CounterApp;

@@ -2,9 +2,6 @@ self.__BUILD_MANIFEST = {
   "/_error": [
     "static/chunks/pages/_error.js"
   ],
-  "/counter-app": [
-    "static/chunks/pages/counter-app.js"
-  ],
   "__rewrites": {
     "afterFiles": [],
     "beforeFiles": [],
